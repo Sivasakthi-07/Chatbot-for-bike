@@ -1,0 +1,177 @@
+i want to see bikes models
+
+bike companies-Suzuki Motorcycle , Yamaha Motors , TVS Motor , Honda , Hero Which company bike will you want know?.
+
+Hero - type serial number to get details about that bike model
+Hero Super Splendor-10001
+Hero XPulse 200-10002
+Hero Xtreme 160R-10003
+Hero Pleasure-10004 .
+
+Honda MOTORS- type serial number to get details about that bike model
+Honda CB Hornet 160R-20001
+Honda CB Shine-20002
+Honda CB Unicorn-20003 .
+
+Suzuki Motorcycle- type serial number to get details about that bike model
+Gixxer	        Rs 131000-30001
+Gixxer SF 250	Rs 187000-30002
+Intruder	Rs 127000-30003 .
+
+Yamaha Motors- type serial number to get details about that bike model
+Yamaha FZS-FI V3-40001
+Yamaha MT-15-40002
+Yamaha R15 V4-40003 .
+
+TVS Motor- type serial number to get details about that bike model
+TVS Apache RTR 160-50001
+TVS Raider-50002
+TVS iQube Electric-50003 .
+
+10001
+Hero Super Splendor deatils
+Engine Capacity	    124.7 cc
+Mileage 	    56.5 kmpl
+Transmission	    5 Speed Manual
+Kerb Weight	    122 kg
+Fuel Tank Capacity  12 litres
+Seat Height	    799 mm . 
+
+10002
+Hero XPulse 200
+Engine Capacity     199.6 cc
+Mileage 	    40 kmpl
+Transmission	    5 Speed Manual
+Kerb Weight	    157 kg
+Fuel Tank Capacity  13 litres
+Seat Height	    823 mm .
+
+10003
+Hero Xtreme 160R
+Engine Capacity	163 cc
+Mileage 	48 kmpl
+Transmission	5 Speed Manual
+Kerb Weight	138.5 kg
+Fuel Tank Capacity	12 litres
+Seat Height	790 mm.
+
+10004
+Hero Pleasure
+Engine Capacity	110.9 cc
+Mileage 	50 kmpl
+Kerb Weight	104 kg
+Seat Height	765 mm
+Fuel Tank Capacity	4.8 litres
+Max Power	8 bhp .
+
+30001
+Gixxer
+Engine Capacity	155 cc
+Mileage 	45 kmpl
+Transmission	5 Speed Manual
+Kerb Weight	148 kg
+Fuel Tank Capacity	12 litres
+Seat Height	795 mm .
+
+30002
+Gixxer SF 250
+Engine Capacity	249 cc
+Mileage 	35 kmpl
+Transmission	6 Speed Manual
+Kerb Weight	161 kg
+Fuel Tank Capacity	12 litres
+Seat Height	800 mm .
+
+30003
+Intruder
+Engine Capacity	155 cc
+Mileage 	42.5 kmpl
+Transmission	5 Speed Manual
+Kerb Weight	152 kg
+Fuel Tank Capacity	11 litres
+Seat Height	740 mm .
+
+40001
+Yamaha FZS-FI V3
+Engine Capacity	149 cc
+Mileage 	45 kmpl
+Transmission	5 Speed Manual
+Kerb Weight	135 kg
+Fuel Tank Capacity	13 litres
+Seat Height	790 mm .
+
+40002
+Yamaha MT-15
+Engine Capacity	155 cc
+Mileage 	45 kmpl
+Transmission	6 Speed Manual
+Kerb Weight	138 kg
+Fuel Tank Capacity	10 litres
+Seat Height	810 mm .
+
+40003
+Yamaha R15 V4
+Engine Capacity	155 cc
+Mileage 	45 kmpl
+Transmission	6 Speed Manual
+Kerb Weight	142 kg
+Fuel Tank Capacity	11 litres
+Seat Height	815 mm .
+
+50001
+TVS Apache RTR 160
+Engine Capacity	159.7 cc
+Mileage 	45 kmpl
+Transmission	5 Speed Manual
+Kerb Weight	139 kg
+Fuel Tank Capacity	12 litres
+Seat Height	790 mm .
+
+50002
+TVS Raider
+Engine Capacity	124.8 cc
+Mileage 	60 kmpl
+Transmission	5 Speed Manual
+Kerb Weight	123 kg
+Fuel Tank Capacity	10 litres
+Seat Height	780 mm .
+
+50003
+TVS iQube Electric
+Range 75 km/charge
+Charging Time 7 Hours (Approx)
+Top Speed 78 kmph
+Acceleration 4.76s
+Motor Type BLDC
+Motor Power 4.4 kW
+Battery Type Li-ion
+Fuel Type Electric
+Wheels Type Alloy
+Tyre Type Tubeless .
+
+20001
+Honda CB Hornet 160R
+Engine Capacity	162.71 cc
+Mileage 	48 kmpl
+Transmission	5 Speed Manual
+Kerb Weight	138 kg
+Fuel Tank Capacity	12 litres
+Seat Height	790 mm .
+
+20002
+Honda CB Shine
+Engine Capacity	124 cc
+Mileage 	55 kmpl
+Transmission	5 Speed Manual
+Kerb Weight	114 kg
+Fuel Tank Capacity	10.5 litres
+Seat Height	791 mm .
+
+20003
+Honda CB Unicorn 
+Engine Capacity	149.1 cc
+Mileage 	53 kmpl
+Transmission	5 Speed Manual
+Kerb Weight	146 kg
+Fuel Tank Capacity	13 litres
+Max Power	12.73 bhp .

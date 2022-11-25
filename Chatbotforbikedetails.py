@@ -1,24 +1,20 @@
-# Chatbot-for-bike-details
-# Chatbot-for-bike-details
-# Chatbot-for-bike-details\
-Here it is very simple process for running these code in your google collab or any other python platform which one you like, just import few things for getting the text from the file and processing it to python by using NLTK 
-
 import io
 import random
 import string
 import warnings
 import numpy as np
-
-after importing numpy, import nltk and it will require some additional files for it
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+import warnings
+warnings.filterwarnings('ignore')
 
 import nltk
 from nltk.stem import WordNetLemmatizer
 nltk.download('popular', quiet=True)
 
-Then, it will get the file from our storage via upload txt file to python platfrom and convert all text into lowercase for understanding and also remove some words.
-
 with open('chatbotdoc.txt','r', encoding='utf8', errors ='ignore') as fin:
     raw = fin.read().lower()
+
 sent_tokens = nltk.sent_tokenize(raw)
 word_tokens = nltk.word_tokenize(raw)
 
@@ -29,21 +25,31 @@ remove_punct_dict = dict((ord(punct), None) for punct in string.punctuation)
 def LemNormalize(text):
     return LemTokens(nltk.word_tokenize(text.lower().translate(remove_punct_dict)))
 
-initialize the greeting for welcome the customer
-
 GREETING_INPUTS = ("hello", "hi", "greetings", "what's up","hey",)
 GREETING_RESPONSES = ["hi", "hey", "hi there", "hello", "I am glad! You are talking to me"]
 
-Then , not understandable words were produced by customers then we need to tell them that can't be understandable so please type words correctly by
+def greeting(sentence):
+    for word in sentence.split():
+        if word.lower() in GREETING_INPUTS:
+            return random.choice(GREETING_RESPONSES)
 
-if(req_tfidf==0):
+def response(user_response):
+    parker_response=''
+    sent_tokens.append(user_response)
+    TfidfVec = TfidfVectorizer(tokenizer=LemNormalize, stop_words='english')
+    tfidf = TfidfVec.fit_transform(sent_tokens)
+    vals = cosine_similarity(tfidf[-1], tfidf)
+    idx=vals.argsort()[0][-2]
+    flat = vals.flatten()
+    flat.sort()
+    req_tfidf = flat[-2]
+    if(req_tfidf==0):
         parker_response=parker_response+"I am sorry! I don't understand you"
         return parker_response
     else:
         parker_response = parker_response+sent_tokens[idx]
         return parker_response
 
-if customer wants to exit the chat then they will have to do type "bye".
 
 flag=True
 print("Hi My name is Paker, I will answer your queries about bikes. If you want to exit, type Bye!")
@@ -63,4 +69,4 @@ while(flag==True):
                 sent_tokens.remove(user_response)
     else:
         flag=False
-        print("PARKER:Thanks for getting me!!")  
+        print("PARKER:Thanks for getting me!!")    
