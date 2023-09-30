@@ -1,6 +1,5 @@
 # Chatbot-for-bike-details
-# Chatbot-for-bike-details
-# Chatbot-for-bike-details\
+
 Here it is very simple process for running these code in your google collab or any other python platform which one you like, just import few things for getting the text from the file and processing it to python by using NLTK 
 
 import io
